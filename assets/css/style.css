@@ -1,0 +1,111 @@
+
+/* responsive */
+.fixed-top {
+    opacity: 0;
+    transition: 0.8s;
+    height: 55px;
+}
+.fixed-top.muncul {
+    opacity: 1;
+}
+
+
+/* START HEADER */
+.fixed-top {
+    background-color: #1d2127;
+}
+.cek {
+    background-color: white;
+}
+.navbar-nav a {
+    font-size: 20px;
+    color: white;
+}
+.navbar-nav li:hover {
+    transition: 0.3s;
+    background-color: #34383d;
+    border-bottom: 3px solid #f24971;
+}
+/* END HEADER */
+
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+}
+/* End Jumbotron */
+
+.navbar-nav li {
+    font-size: 20px;
+}
+.display-4 {
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+    text-shadow: 5px 5px 3px black;
+}
+.lead {
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 5px 5px 3px black;
+}
+
+
+/* START CONTAINER ABOUT */
+
+.wrapper.about {
+    height: 700px;
+    /* background-color: #e9ecef; */
+}
+.wrapper.resume {
+    background-color: #e9ecef;
+    /* height: 750px; */
+}
+ hr {
+    width: 10%;
+    border: 2px solid #f24971;
+}
+
+/* END CONTAINER ABOUT */
+
+/* SRART SKILL */
+.menu-skill1, .menu-skill2 {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(0, -50px);
+}
+
+.menu-skill1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+.menu-skill2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+/* END SKILL */
+
+/* START KONTAK */
+.wrapper.kontak {
+    background-color: #e9ecef;
+
+}
+.text-kontak {
+    font-size: 20px;
+    font-weight: 500;
+}
+/* END KONTAK */
+
+/* START FOOTER */
+.wrapper.footer {
+    background-color: #1d2127;
+}
+h5 {
+    color: white;
+}
+.text-color {
+    color: #f24971;
+}
+/* END FOOTER */
