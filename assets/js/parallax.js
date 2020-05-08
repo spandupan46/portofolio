@@ -4,6 +4,21 @@ $(window).scroll(() => {
     let wScroll = $(this).scrollTop();
     console.log(wScroll);
 
+
+
+
+    // PARALLAX JUMBOTRON
+
+    $('.jumbotron img').css({
+        'transform': 'translate(0px,' + wScroll / 3.5 + '%)'
+    });
+    $('.jumbotron h1').css({
+        'transform': 'translate(0px,' + wScroll / 1.5 + '%)'
+    })
+    $('.jumbotron p').css({
+        'transform': 'translate(0px,' + wScroll / 1 + '%)'
+    })
+
     if (wScroll <= 115) {
         $('.fixed-top').addClass('muncul');
     }
@@ -27,3 +42,4 @@ $(window).scroll(() => {
         })
     }
 })
+
