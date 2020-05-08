@@ -19,10 +19,10 @@ $(window).scroll(() => {
         'transform': 'translate(0px,' + wScroll / 1 + '%)'
     })
 
-    if (wScroll >= 115) {
+    if (wScroll >= 75) {
         $('.fixed-top').addClass('muncul');
     }
-    if (wScroll <= 115) {
+    if (wScroll <= 75) {
         $('.fixed-top').removeClass('muncul')
     }
 
