@@ -12,8 +12,9 @@ html {
     top: 50%;
     left: 50%;
 }
-
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* responsive */
 .fixed-top {
@@ -23,6 +24,10 @@ html {
 }
 .fixed-top.muncul {
     opacity: 1;
+}
+.active {
+    color: #f24971;
+    border-bottom: 3px solid #f24971;
 }
 
 
@@ -42,6 +47,9 @@ html {
     background-color: #34383d;
     border-bottom: 3px solid #f24971;
 }
+.navbar-brand {
+    color: #fff;
+}
 /* END HEADER */
 
 
@@ -50,6 +58,10 @@ html {
     background-image: url("../img/img2.jpg");
     background-size: cover;
     overflow: hidden;
+}
+
+.rounded-circle {
+    z-index: 9999;
 }
 /* End Jumbotron */
 
@@ -60,13 +72,13 @@ html {
     font-weight: 500;
     font-size: 60px;
     color: white;
-    text-shadow: 5px 5px 3px black;
+    text-shadow: 5px 5px 3px #000;
 }
 .lead {
     font-size: 24px;
     color: white;
     font-weight: 500;
-    text-shadow: 5px 5px 3px black;
+    text-shadow: 5px 5px 3px #000;
 }
 
 
@@ -83,6 +95,10 @@ html {
  hr {
     width: 10%;
     border: 2px solid #f24971;
+}
+#about p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* END CONTAINER ABOUT */
@@ -126,3 +142,14 @@ h5 {
     color: #f24971;
 }
 /* END FOOTER */
+
+/* Carousel */
+.carousel-main {
+    background-color: rgba(130,130,130,0.3);
+    border-radius: 20px;
+}
+.header-carousel {
+    color: black;
+    padding: 10px 10px 5px 10px;
+    font-weight: bold;
+}
