@@ -1,5 +1,5 @@
 hello testing
-coba2
+coba1
 vue
-angular
+react
 edit commit
